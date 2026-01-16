@@ -703,6 +703,7 @@ img {
     color: #fff;
     background: transparent;
     outline: none;
+    border: 1px solid #ffffff;
 }
 
 .email-input::placeholder {
