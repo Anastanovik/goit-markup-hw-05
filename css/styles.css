@@ -703,7 +703,10 @@ img {
     color: #fff;
     background: transparent;
     outline: none;
-}
+    border: 1px solid #ffffff;
+
+ }
+
 
 .email-input::placeholder {
     color: #fff;
@@ -731,8 +734,9 @@ img {
 
 .email-input:hover,
 .email-input:focus {
-border: 1px solid #31D0AA;
-}
+    outline: 1px solid #31D0AA;
+};
+
 
 .subscribe-button:hover,
 .subscribe-button:focus{
@@ -962,18 +966,3 @@ color: #4d5ae5;
  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
-.email-input {
-    border: 1px solid #fff;
-    border-radius: 4px;
-    width: 264px;
-    height: 40px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    padding-left: 16px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    color: #fff;
-    background: transparent;
-    outline: none;
-}
